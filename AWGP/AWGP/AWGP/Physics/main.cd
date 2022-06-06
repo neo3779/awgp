@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AWGP.collisionManager">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAQAAAAAAAAAAEAAAAAKABAAAAAAAAAgIAQAA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collisionsThisFrame" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AWGP.collisionEventArgs">
+    <Position X="4.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="collisionsThisFrame" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Struct Name="AWGP.collision">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAQAAAAAAAIAAEAAAAAggAAAAAAAAA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collisionType" />
+    </ShowAsAssociation>
+  </Struct>
+  <Enum Name="AWGP.collisionType">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

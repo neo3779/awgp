@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/Team-SAD/!svn/ver/182/AWGP/AWGP/AWGP/Graphics/States
+END
+RendererStateText.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Team-SAD/!svn/ver/182/AWGP/AWGP/AWGP/Graphics/States/RendererStateText.cs
+END
+RendererStateSprite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/Team-SAD/!svn/ver/62/AWGP/AWGP/AWGP/Graphics/States/RendererStateSprite.cs
+END
+IRendererState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/Team-SAD/!svn/ver/62/AWGP/AWGP/AWGP/Graphics/States/IRendererState.cs
+END
+RendererStateNull.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/Team-SAD/!svn/ver/62/AWGP/AWGP/AWGP/Graphics/States/RendererStateNull.cs
+END

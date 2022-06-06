@@ -1,0 +1,828 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework;
+using System.Xml;
+
+namespace AWGP
+{
+    public class InputManager
+    {
+        #region Variables
+
+        /// <summary>
+        /// Decleration
+        /// </summary>
+        //Number of contorls thatn can be controlled
+        private static int maxGamePads = 4, maxKeyboard = 2, maxMouse = 1, maxPlayers = maxGamePads + maxKeyboard + maxMouse;
+        //Counter to ensure that max numbers are not breached
+        private int keyboardCount, gamepadsCount;
+        //List of players
+        public List<Player> players;
+        //List of keyboard monitors
+        private List<KeyboardMonitor> keyboards;
+        //List of gamepads monitors
+        private List<GamePadMonitor> gamepads;
+        //Mouse monitor
+        private MouseMonitor mouse;
+        //Player index for game pads
+        private PlayerIndex index = PlayerIndex.One;
+        //Player event object
+        private PlayerEvent playerEvent;
+        //Game pad for event handler
+        private GamePadMonitor pad;
+        //Mouse for event handler 
+        private MouseMonitor mouses;
+        //Keyboard for event handler
+        private KeyboardMonitor keyboard;
+        //Event handler 
+        public event EventHandler InputEvent, PlayerLeftGame, PlayerEnteredGame;
+
+        #endregion
+
+        #region Constuctor
+
+        public InputManager(string fileName)
+        {
+            InitializeInput(readXML(fileName));
+        }
+
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        public InputManager(List<Player> players)
+        {
+            InitializeInput(players);
+        }
+
+        /// <summary>
+        /// Deconstrcutor
+        /// </summary>
+        ~InputManager()
+        {
+
+        }
+
+        #endregion
+
+        #region Methods
+
+        /// <summary>
+        /// Get all the players data
+        /// </summary>
+        /// <returns>List of players</returns>
+        public List<Player> GetPlayers()
+        {
+            return players;
+        }
+
+        /// <summary>
+        /// Update the state of monitors
+        /// </summary>
+        public void Update()
+        {
+            //Update keyboard if it initialized
+            if (keyboards != null)
+            {
+                //Loop thorugh keyboard players
+                foreach (KeyboardMonitor k in keyboards)
+                {
+                    //Update keyboard
+                    k.Update();
+                }
+            }
+            //Update mouse if it initialized
+            if (mouse != null)
+            {
+                //Update mouse
+                mouse.Update();
+            }
+            //Update game pads if the it initialized
+            if (gamepads != null)
+            {
+                //Loop through game pads players
+                foreach (GamePadMonitor g in gamepads)
+                {
+                    g.Update();
+                }
+            }
+        }
+
+        /// <summary>
+        /// To string for error checking
+        /// </summary>
+        public string ToString()
+        {
+
+
+            string mouseCount = "0";
+            if (mouse != null)
+            {
+                mouseCount = "1";
+            }
+            //Create string
+            string s = "GamePad players: " + gamepadsCount + " Keyboard players: " + keyboardCount + " Mouse players: " + mouseCount  ;
+            s += Environment.NewLine;
+            s += Environment.NewLine;
+            //If keboard used
+            if (keyboards != null)
+            {
+                //For each keyboard user
+                foreach (KeyboardMonitor k in keyboards)
+                {
+                    //Get to string
+                    s += k.ToString();
+                }
+            }
+
+            //If mouse used
+            if (mouse != null)
+            {
+                //Get to string for mouse
+                s += mouse.ToString();
+                //Instert new line
+                s += Environment.NewLine;
+            }
+
+            //If gamepads used
+            if (gamepads != null)
+            {
+                //For each game pad user
+                foreach (GamePadMonitor g in gamepads)
+                {
+                    //Get to string
+                    s += g.ToString();
+                }
+            }
+            //Retrun string
+            return s;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="filename"></param>
+        /// <returns></returns>
+        private List<Player> readXML(string filename)
+        {
+            XmlDocument itemDoc = new XmlDocument();
+            itemDoc.Load("Content\\" + filename + ".xml");
+
+            List<Player> players = new List<Player>();
+            List<PlayerMoves> moves = new List<PlayerMoves>();
+           
+            PlayersName playerName = PlayersName.PLAYER_0;
+            Controls controls = Controls.GAMEPAD;
+            string control = "";
+            string move = "";
+
+            XmlNodeList playerList = itemDoc.GetElementsByTagName("player");
+            foreach (XmlNode node in playerList)
+            {
+                XmlElement playerElement = (XmlElement)node;
+
+                if (playerElement.HasAttributes)
+                {
+                    playerName = (PlayersName)Enum.Parse(typeof(PlayersName), playerElement.Attributes["playersName"].InnerText);
+                    controls = (Controls)Enum.Parse(typeof(Controls), playerElement.Attributes["control"].InnerText);
+                }
+                foreach (XmlNode child in node.ChildNodes)
+                {
+                    XmlElement moveElement = (XmlElement)child;
+                    if (moveElement.HasAttributes)
+                    {
+                        control = moveElement.Attributes["control"].InnerText;
+                        move = moveElement.Attributes["moverName"].InnerText;
+                        moves.Add(new PlayerMoves(control,move));
+                    }
+                }
+                players.Add(new Player(playerName,controls,moves.ToArray()));
+                moves.Clear();
+            }
+            return players;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="players"></param>
+        public void InitializeInput(List<Player> players)
+        {
+            //Initialize players
+            this.players = players;
+            //Set counts to zero
+            this.keyboardCount = 0;
+            this.gamepadsCount = 0;
+            int playersCount = 0;
+            //Loop through all players
+            foreach (Player p in players)
+            {
+                //Check number of player can be handled
+                if (playersCount < maxPlayers)
+                {
+                    //Determine player controller
+                    switch (p.Controller)
+                    {
+                        //Game pad
+                        case Controls.GAMEPAD:
+                            //Check that gamepad exists
+                            if (this.gamepads == null)
+                            {
+                                //Create game pad list
+                                this.gamepads = new List<GamePadMonitor>();
+                            }
+                            //Check that game pad count is not maxed out
+                            if (gamepadsCount < maxGamePads)
+                            {
+                                //Counter
+                                int i = 0;
+                                //Create buttons array
+                                Buttons[] buttonsToWatchGamePads = new Buttons[p.ControlsArray.Length];
+                                //Loop thorugh each button
+                                foreach (string e in p.ControlsArray)
+                                {
+                                    //Convert to button type
+                                    buttonsToWatchGamePads[i] = (Buttons)Enum.Parse(typeof(Buttons), e);
+                                    //Increament count
+                                    i++;
+                                }
+                                //Create game pad monitor
+                                this.gamepads.Add(new GamePadMonitor(index, buttonsToWatchGamePads));
+                                //Set player controler index
+                                p.Index = index;
+                                //Increament game pad counter
+                                gamepadsCount++;
+                                //Increase player index
+                                index++;
+                            }
+                            else
+                            {
+                                //To many gamepad users throw exception
+                                throw new System.ArgumentException("Can not have more than  four gamepads users.", "InputManager");
+                            }
+                            break;
+                        //Mouse
+                        case Controls.MOUSE:
+                            //Check that mouse exists
+                            if (this.mouse == null)
+                            {
+                                //Counter
+                                int i = 0;
+                                //Create buttons array
+                                MouseMonitor.MouseButtons[] buttonsToWatchMouse = new MouseMonitor.MouseButtons[p.ControlsArray.Length];
+                                //Loop thorugh each button
+                                foreach (string e in p.ControlsArray)
+                                {
+                                    //Convert to button type
+                                    buttonsToWatchMouse[i] = (MouseMonitor.MouseButtons)Enum.Parse(typeof(MouseMonitor.MouseButtons), e);
+                                    //Increament count
+                                    i++;
+                                }
+                                //Add event listners and handlers
+                                this.mouse = new MouseMonitor(buttonsToWatchMouse);
+                                this.mouse.NewButtonPressed += new EventHandler(mouse_NewButton);
+                                this.mouse.NewMousePosition += new EventHandler(mouse_NewPosition);
+                                this.mouse.NewMouseWheelPosition += new EventHandler(mouse_NewWheelPosition);
+                                this.mouse.OldButtonReleased += new EventHandler(mouse_OldButton);
+                            }
+                            else
+                            {
+                                //To many mouse users throw exception
+                                throw new System.ArgumentException("Can not have more than one mouse user.", "InputManager");
+                            }
+                            break;
+                        //Keyboard
+                        case Controls.KEYBOARD:
+                            //Check that keyboard exists
+                            if (this.keyboards == null)
+                            {
+                                //Create keyboard list
+                                this.keyboards = new List<KeyboardMonitor>();
+                            }
+                            //Check thatkeyboard count is not maxed out
+                            if (keyboardCount < maxKeyboard)
+                            {
+                                //Counter
+                                int i = 0;
+                                //Create keys array
+                                Keys[] keys = new Keys[p.ControlsArray.Length];
+                                //Loop thorugh each keys
+                                foreach (string e in p.ControlsArray)
+                                {
+                                    //Convert to button type
+                                    keys[i] = (Keys)Enum.Parse(typeof(Keys), e); ;
+                                    //Increament count
+                                    i++;
+                                }
+                                //Loop through keyboar monitors
+                                foreach (KeyboardMonitor km in keyboards)
+                                {
+                                    //Loop through keys to watch
+                                    foreach (Keys kw in km.KeysToWatch)
+                                    {
+                                        //Loop thorugh keys being already used
+                                        foreach (Keys k in keys)
+                                        {
+                                            //Compare keys
+                                            if (0 == kw.CompareTo(k))
+                                            {
+                                                //Key already being used by another player
+                                                throw new System.ArgumentException("Keyboard users share the same key.", "InputManager");
+                                            }
+                                        }
+                                    }
+
+                                }
+                                //Add to keyboard monitor list
+                                this.keyboards.Add(new KeyboardMonitor(keys));
+                                //Increament count
+                                keyboardCount++;
+                            }
+                            else
+                            {
+                                //To many keyboard users throw exception
+                                throw new System.ArgumentException("Can not have more than two keyboard users.", "InputManager");
+                            }
+                            break;
+                        //Default do nothing
+                        default:
+                            break;
+
+                    }
+                    //Increament count
+                    playersCount++;
+                }
+                else
+                {
+                    //To many players to handel throw exception
+                    throw new System.ArgumentException("Can not have more seven users.", "InputManager");
+                }
+            }
+            //Check that game pads are being used
+            if (gamepads != null)
+            {
+                //Loop through all game pads monitors
+                foreach (GamePadMonitor g in gamepads)
+                {
+                    //Add game pad events
+                    g.GamePadConnected += new EventHandler(gamepad_Connected);
+                    g.GamePadDisconnected += new EventHandler(gamepad_Disconnected);
+                    g.NewButtonPressed += new EventHandler(gamepad_NewButton);
+                    g.OldButtonReleased += new EventHandler(gamepad_OldButton);
+                    g.NewLeftStickPosition += new EventHandler(gamepad_LeftStickPosition);
+                    g.NewLeftTriggerPosition += new EventHandler(gamepad_LeftTriggerPosition);
+                    g.NewRightStickPosition += new EventHandler(gamepad_RightStickPosition);
+                    g.NewRightTriggerPosition += new EventHandler(gamepad_RightTriggerPosition);
+                }
+            }
+            //Check that keyboard are being used
+            if (keyboards != null)
+            {
+                //Loop through all keyboard monitors
+                foreach (KeyboardMonitor k in keyboards)
+                {
+                    //Add keyboard events
+                    k.NewKeyPressed += new EventHandler(keyboard_NewKey);
+                    k.OldKeyReleased += new EventHandler(keyboard_OldKey);
+                }
+            }
+            //Clean up to free up memory
+            System.GC.Collect();
+        }
+
+        #endregion
+
+        #region Event Handlers
+
+        /// <summary>
+        /// Game pad new button event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_NewButton(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Loop through the players buttons
+                        foreach (Buttons b in pad.ButtonsPressed())
+                        {
+                            //Create sender object for new event 
+                            this.playerEvent = new PlayerEvent(p.PlayerName, p.FindMove((Enum)b), InputStatus.START);
+                            //Check input event is not null
+                            if (this.InputEvent != null)
+                            {
+                                //Send event
+                                this.InputEvent(this.playerEvent, new EventArgs());
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        /// <summary>
+        /// Game pad old button event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_OldButton(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Loop through the players buttons
+                        foreach (Buttons b in pad.ButtonsReleased())
+                        {
+                            //Create sender object for new event 
+                            this.playerEvent = new PlayerEvent(p.PlayerName, p.FindMove((Enum)b), InputStatus.STOP);
+                            //Check input event is not null
+                            if (this.InputEvent != null)
+                            {
+                                //Send event
+                                this.InputEvent(this.playerEvent, new EventArgs());
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Game pad axis change event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_LeftStickPosition(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check on players that are playing with gamepads
+                    if (p.Controller == Controls.GAMEPAD)
+                    {
+                        //Check that the player indexes match
+                        if (pad.Index.Equals(p.Index))
+                        {
+                            //Create sender object for new event 
+                            this.playerEvent = new PlayerEvent(p.PlayerName, this.pad.LeftStickPosition, this.pad.LeftStickVelocity);
+                            //Check input event is not null
+                            if (this.InputEvent != null)
+                            {
+                                //Send event
+                                this.InputEvent(this.playerEvent, new EventArgs());
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Game pad trigger change event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_LeftTriggerPosition(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Create sender object for new event 
+                        this.playerEvent = new PlayerEvent(p.PlayerName, this.pad.LeftTriggerPosition, this.pad.LeftTriggerVelocity);
+                        //Check input event is not null
+                        if (this.InputEvent != null)
+                        {
+                            //Send event
+                            this.InputEvent(this.playerEvent, new EventArgs());
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Game pad axis change event
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_RightStickPosition(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Create sender object for new event
+                        this.playerEvent = new PlayerEvent(p.PlayerName, this.pad.RightStickPosition, this.pad.RightStickVelocity);
+                        //Check input event is not null
+                        if (this.InputEvent != null)
+                        {
+                            //Send event
+                            this.InputEvent(this.playerEvent, new EventArgs());
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Game pad trigger change event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_RightTriggerPosition(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Create sender object for new event
+                        this.playerEvent = new PlayerEvent(p.PlayerName, this.pad.RightTriggerPosition, this.pad.RightTriggerVelocity);
+                        //Check input event is not null
+                        if (this.InputEvent != null)
+                        {
+                            //Send event
+                            this.InputEvent(this.playerEvent, new EventArgs());
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        ///  Game pad connected event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_Connected(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Create sender object for new event
+                        this.playerEvent = new PlayerEvent(p.PlayerName, InputStatus.PLAYER_CONNECTED);
+                        //Check input event is not null
+                        if (this.PlayerEnteredGame != null)
+                        {
+                            //Send event
+                            this.PlayerEnteredGame(this.playerEvent, new EventArgs());
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Game pad disconnected event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void gamepad_Disconnected(object sender, EventArgs e)
+        {
+            //Cast sender to game pad monitor
+            this.pad = (GamePadMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with gamepads
+                if (p.Controller == Controls.GAMEPAD)
+                {
+                    //Check that the player indexes match
+                    if (pad.Index.Equals(p.Index))
+                    {
+                        //Create sender object for new event
+                        this.playerEvent = new PlayerEvent(p.PlayerName, InputStatus.PLAYER_DISCONNECTED);
+                        //Check input event is not null
+                        if (this.PlayerLeftGame != null)
+                        {
+                            //Send event
+                            this.PlayerLeftGame(this.playerEvent, new EventArgs());
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Keyboard new key event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void keyboard_NewKey(object sender, EventArgs e)
+        {
+            //Cast sender to keyboard monitor 
+            this.keyboard = (KeyboardMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with keybaord
+                if (p.Controller == Controls.KEYBOARD)
+                {
+                    //Create sender object for new event
+                    this.playerEvent = new PlayerEvent(p.PlayerName, InputStatus.START);
+                    //Check input event is not null
+                    if (this.InputEvent != null)
+                    {
+                        //Send event
+                        this.PlayerLeftGame(this.playerEvent, new EventArgs());
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Keyboard old key event 
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void keyboard_OldKey(object sender, EventArgs e)
+        {
+            //Cast sender to keyboard monitor 
+            this.keyboard = (KeyboardMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with keyboard
+                if (p.Controller == Controls.KEYBOARD)
+                {
+                    //Create sender object for new event
+                    this.playerEvent = new PlayerEvent(p.PlayerName, InputStatus.STOP);
+                    //Check input event is not null
+                    if (this.InputEvent != null)
+                    {
+                        //Send event
+                        this.PlayerLeftGame(this.playerEvent, new EventArgs());
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Mouse new button event
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void mouse_NewButton(object sender, EventArgs e)
+        {
+            //Cast sender to mouse monitor 
+            this.mouses = (MouseMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with mouse
+                if (p.Controller == Controls.MOUSE)
+                {
+                    //Create sender object for new event
+                    this.playerEvent = new PlayerEvent(p.PlayerName, InputStatus.START);
+                    //Check input event is not null
+                    if (this.InputEvent != null)
+                    {
+                        //Send event
+                        this.PlayerLeftGame(this.playerEvent, new EventArgs());
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Mouse new position
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void mouse_NewPosition(object sender, EventArgs e)
+        {
+            //Cast sender to keyboard monitor 
+            this.mouses = (MouseMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with mouse
+                if (p.Controller == Controls.MOUSE)
+                {
+                    //Create sender object for new event
+                    this.playerEvent = new PlayerEvent(p.PlayerName, this.mouses.MousePosition, this.mouse.MouseVelocity);
+                    //Check input event is not null
+                    if (this.PlayerLeftGame != null)
+                    {
+                        //Send event
+                        this.PlayerLeftGame(this.playerEvent, new EventArgs());
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Mouse new wheel position
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void mouse_NewWheelPosition(object sender, EventArgs e)
+        {
+            //Cast sender to keyboard monitor 
+            this.mouses = (MouseMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with mouse
+                if (p.Controller == Controls.MOUSE)
+                {
+                    //Create sender object for new event
+                    this.playerEvent = new PlayerEvent(p.PlayerName, this.mouses.MouseWheelPostion, this.mouse.MouseWheelVelocity);
+                    //Check input event is not null
+                    if (this.PlayerLeftGame != null)
+                    {
+                        //Send event
+                        this.PlayerLeftGame(this.playerEvent, new EventArgs());
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Mouse old button event
+        /// </summary>
+        /// <param name="sender">Object that sent </param>
+        /// <param name="e">collision arguments</param>
+        void mouse_OldButton(object sender, EventArgs e)
+        {
+            //Cast sender to mouse monitor 
+            this.mouses = (MouseMonitor)sender;
+            //For every player playing
+            foreach (Player p in players)
+            {
+                //Check on players that are playing with mouse
+                if (p.Controller == Controls.MOUSE)
+                {
+                    //Create sender object for new event
+                    this.playerEvent = new PlayerEvent(p.PlayerName, InputStatus.STOP);
+                    //Check input event is not null
+                    if (this.InputEvent != null)
+                    {
+                        //Send event
+                        this.PlayerLeftGame(playerEvent, new EventArgs());
+                    }
+                }
+            }
+        }
+
+        #endregion
+
+
+    }
+}

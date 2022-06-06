@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sprites\Background_a .png</Source>
+      <Name>Sprites\Background_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Background_a.xnb</Output>
+      <Time>2011-12-05T10:20:56+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\PointLight.fx</Source>
+      <Name>Effects\PointLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\PointLight.xnb</Output>
+      <Time>2012-01-06T20:50:28.0224988+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\PointSpriteOpaque.fx</Source>
+      <Name>Effects\PointSpriteOpaque</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb</Output>
+      <Time>2012-01-06T20:50:28.0124988+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\AmbientLight.fx</Source>
+      <Name>Effects\AmbientLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb</Output>
+      <Time>2012-01-06T20:50:28.0024988+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SpotLight.fx</Source>
+      <Name>Effects\SpotLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\SpotLight.xnb</Output>
+      <Time>2012-01-06T20:50:28.0224988+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Font\font.spritefont</Source>
+      <Name>Font\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Font\font.xnb</Output>
+      <Time>2011-12-05T10:33:46+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopBlue_a.png</Source>
+      <Name>Sprites\GoopBlue_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopBlue_a.xnb</Output>
+      <Time>2011-12-05T20:57:30.5532683+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopGreen_a.png</Source>
+      <Name>Sprites\GoopGreen_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopGreen_a.xnb</Output>
+      <Time>2011-12-05T20:57:30.5632689+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopRed_a.png</Source>
+      <Name>Sprites\GoopRed_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopRed_a.xnb</Output>
+      <Time>2011-12-05T20:57:30.5352673+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopYellow_a.png</Source>
+      <Name>Sprites\GoopYellow_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopYellow_a.xnb</Output>
+      <Time>2011-12-05T20:57:30.5442678+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Default.spritefont</Source>
+      <Name>Default</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Default.xnb</Output>
+      <Time>2011-12-06T17:15:45.4632271+00:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-12-08T11:27:35.8857208+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopCollectorBlue_a.png</Source>
+      <Name>Sprites\GoopCollectorBlue_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorBlue_a.xnb</Output>
+      <Time>2011-12-08T13:37:02.560043+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopCollectorGreen_a.png</Source>
+      <Name>Sprites\GoopCollectorGreen_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorGreen_a.xnb</Output>
+      <Time>2011-12-08T13:37:17.8268778+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopCollectorRed_a.png</Source>
+      <Name>Sprites\GoopCollectorRed_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorRed_a.xnb</Output>
+      <Time>2011-12-08T13:37:24.7386376+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\GoopCollectorYellow_a.png</Source>
+      <Name>Sprites\GoopCollectorYellow_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorYellow_a.xnb</Output>
+      <Time>2011-12-08T13:37:32.4837566+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\PlayerBlue_a.png</Source>
+      <Name>Sprites\PlayerBlue_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerBlue_a.xnb</Output>
+      <Time>2011-12-08T14:12:42.6697166+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\PlayerGreen_a.png</Source>
+      <Name>Sprites\PlayerGreen_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerGreen_a.xnb</Output>
+      <Time>2011-12-08T14:12:42.6837174+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\PlayerRed_a.png</Source>
+      <Name>Sprites\PlayerRed_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerRed_a.xnb</Output>
+      <Time>2011-12-08T14:12:42.7017184+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\PlayerYellow_a.png</Source>
+      <Name>Sprites\PlayerYellow_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerYellow_a.xnb</Output>
+      <Time>2011-12-08T14:12:42.7207195+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-18T19:29:20.7180073+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

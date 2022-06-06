@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/Team-SAD/!svn/ver/255/AWGP/RacingGame/RacingGameContent/Effects
+END
+AmbientLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/Team-SAD/!svn/ver/255/AWGP/RacingGame/RacingGameContent/Effects/AmbientLight.fx
+END
+PointSpriteOpaque.fx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/Team-SAD/!svn/ver/255/AWGP/RacingGame/RacingGameContent/Effects/PointSpriteOpaque.fx
+END
+SpotLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/Team-SAD/!svn/ver/255/AWGP/RacingGame/RacingGameContent/Effects/SpotLight.fx
+END
+PointLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/Team-SAD/!svn/ver/255/AWGP/RacingGame/RacingGameContent/Effects/PointLight.fx
+END

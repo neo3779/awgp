@@ -1,0 +1,23 @@
+﻿<players>
+  <player playersName="PLAYER_0" control ="KEYBOARD">
+    <move type ="BUTTON" control ="W" moverName="Accelerate"></move>
+    <move type ="BUTTON" control ="A" moverName="TurnLeft"></move>
+    <move type ="BUTTON" control ="S" moverName="Brake"></move>
+    <move type ="BUTTON" control ="D" moverName="TurnRight"></move>
+  </player>
+  <player playersName="PLAYER_1" control ="KEYBOARD">
+    <move type ="BUTTON" control ="I" moverName="Accelerate"></move>
+    <move type ="BUTTON" control ="J" moverName="TurnLeft"></move>
+    <move type ="BUTTON" control ="K" moverName="Brake"></move>
+    <move type ="BUTTON" control ="L" moverName="TurnRight"></move>
+  </player>
+
+
+  <!--<player playersName="PLAYER_0" control ="GAMEPAD">
+    <move type ="LEFT_STICK" control ="NONE" moverName="STOP"></move>
+    <move type ="LEFT_STICK" control ="UP" moverName="Accelerate"></move>
+    <move type ="LEFT_STICK" control ="DOWN" moverName="TurnLeft"></move>
+    <move type ="LEFT_STICK" control ="RIGHT" moverName="Brake"></move>
+    <move type ="LEFT_STICK" control ="LEFT" moverName="TurnRight"></move>
+  </player>-->
+</players>

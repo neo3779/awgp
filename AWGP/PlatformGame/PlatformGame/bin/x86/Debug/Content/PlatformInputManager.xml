@@ -1,0 +1,18 @@
+﻿<players>
+  <player playersName="PLAYER_0" control ="KEYBOARD">
+    <move type="BUTTON" control ="A" moverName="MoveLeft"></move>
+    <move type="BUTTON" control ="D" moverName="MoveRight"></move>
+    <move type="BUTTON" control ="W" moverName="Jump"></move>
+  </player>
+  <player playersName="PLAYER_1" control ="KEYBOARD">
+    <move type="BUTTON" control ="J" moverName="MoveLeft"></move>
+    <move type="BUTTON" control ="L" moverName="MoveRight"></move>
+    <move type="BUTTON" control ="I" moverName="Jump"></move>
+  </player>
+  <player playersName="PLAYER_2" control ="GAMEPAD">
+    <move type ="DPAD" control ="NONE" moverName="NOTHING"></move>
+    <move type ="DPAD" control ="LEFT" moverName="MoveLeft"></move>
+    <move type ="DPAD" control ="RIGHT" moverName="MoveRight"></move>
+    <move type ="BUTTON" control ="A" moverName="Jump"></move>
+  </player>
+</players>

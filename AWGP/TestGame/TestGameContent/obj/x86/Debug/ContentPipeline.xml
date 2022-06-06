@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Graphics\Effects\Deferred\SpriteAlbNormSpec.fx</Source>
+      <Name>Graphics\Effects\Deferred\SpriteAlbNormSpec</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Effects\Deferred\SpriteAlbNormSpec.xnb</Output>
+      <Time>2011-11-22T12:12:47.5922559+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Effects\PointLight.fx</Source>
+      <Name>Graphics\Effects\PointLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Effects\PointLight.xnb</Output>
+      <Time>2011-11-22T12:12:47.654656+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Effects\PointSpriteOpaque.fx</Source>
+      <Name>Graphics\Effects\PointSpriteOpaque</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Effects\PointSpriteOpaque.xnb</Output>
+      <Time>2011-11-22T12:12:47.654656+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\TestSprite\TestSprite_a.png</Source>
+      <Name>Graphics\TestSprite\TestSprite_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\TestSprite\TestSprite_a.xnb</Output>
+      <Time>2011-11-22T12:12:48.3254572+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\TestSprite\TestSprite_n.png</Source>
+      <Name>Graphics\TestSprite\TestSprite_n</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\TestSprite\TestSprite_n.xnb</Output>
+      <Time>2011-11-22T12:12:48.3254572+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Textures\Sphere\Sphere_a.dds</Source>
+      <Name>Graphics\Textures\Sphere\Sphere_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Textures\Sphere\Sphere_a.xnb</Output>
+      <Time>2011-11-22T12:12:47.8574563+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Textures\Sphere\Sphere_n.dds</Source>
+      <Name>Graphics\Textures\Sphere\Sphere_n</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Textures\Sphere\Sphere_n.xnb</Output>
+      <Time>2011-11-22T12:12:47.8730564+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Textures\Sphere\Sphere_s.dds</Source>
+      <Name>Graphics\Textures\Sphere\Sphere_s</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Textures\Sphere\Sphere_s.xnb</Output>
+      <Time>2011-11-22T12:12:47.8574563+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Torus\Torus_a.dds</Source>
+      <Name>Graphics\Torus\Torus_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Torus\Torus_a.xnb</Output>
+      <Time>2011-11-22T12:12:48.5594576+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Torus\Torus_n.dds</Source>
+      <Name>Graphics\Torus\Torus_n</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Torus\Torus_n.xnb</Output>
+      <Time>2011-11-22T12:12:48.5594576+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Graphics\Torus\Torus_s.dds</Source>
+      <Name>Graphics\Torus\Torus_s</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\Graphics\Torus\Torus_s.xnb</Output>
+      <Time>2011-11-22T12:12:48.5594576+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\TestGame\TestGame\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-18T19:29:20.7180073+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

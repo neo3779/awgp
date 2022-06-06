@@ -1,0 +1,12 @@
+Content\Sprites\Collectible_a.xnb
+Content\Sprites\Wall_a.xnb
+Content\Effects\PointLight.xnb
+Content\Effects\PointSpriteOpaque.xnb
+Content\Effects\AmbientLight.xnb
+Content\Effects\SpotLight.xnb
+Content\Default.xnb
+Content\Sprites\Background_a.xnb
+Content\Sprites\Player0_a.xnb
+Content\Sprites\Player1_a.xnb
+Content\Sprites\Player2_a.xnb
+Content\PlatformInputManager.xml

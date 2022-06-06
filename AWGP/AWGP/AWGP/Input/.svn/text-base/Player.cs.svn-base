@@ -1,0 +1,118 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+
+namespace AWGP
+{
+    
+    public class Player
+    {
+        public Controls controller;
+        public PlayersName playerName;
+        public PlayerMoves[] moves;
+        
+        private PlayerIndex index;
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="playerName"></param>
+        /// <param name="controller"></param>
+        /// <param name="controls"></param>
+        public Player(PlayersName playerName, Controls controller, PlayerMoves[] moves)
+        {
+            this.playerName = playerName;
+            this.controller = controller;
+            this.moves = moves;
+            this.index = new PlayerIndex();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        ~Player()
+        {
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public string[] ControlsArray
+        {
+            get {
+
+                string[] array = new string[moves.Length];
+                int i = 0;
+                foreach(PlayerMoves m in moves)
+                {
+                    array[i] = m.Control;
+                    i++;
+                }
+                return array;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public PlayerIndex Index
+        {
+            get { return this.index; }
+            set { this.index = value; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public Controls Controller
+        {
+            get { return this.controller; }
+            set { this.controller = value; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public PlayersName PlayerName
+        {
+            get { return this.playerName; }
+            set { this.playerName = value; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public new string ToString()
+        {
+            string s = "";
+            s += "Player's Name: " +playerName;
+            s += Environment.NewLine;
+            s += "Control: " + controller.ToString();
+            s += Environment.NewLine;
+            s += "GamePad Index: " + index.ToString();
+            return s;
+        }
+
+
+        public string FindMove(Enum p)
+        {
+            foreach (PlayerMoves m in moves)
+            {
+                if (m.Control.Equals(p))
+                {
+                    return m.Move.ToString();
+                }
+            }
+            return "None Found";
+        }
+
+        public PlayerMoves[] GetMoves()
+        {
+            return moves;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\Content\font.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\Content\InputManager.xml
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AlexTestGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AlexTestGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\AlexTestGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\AlexTestGame.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\Content\font.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\Content\InputManager.xml
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AlexTestGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AlexTestGame.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AWGP.dll
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\bin\x86\Debug\AWGP.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\AlexTestGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AlexTestGame\AlexTestGame\obj\x86\Debug\AlexTestGame.pdb

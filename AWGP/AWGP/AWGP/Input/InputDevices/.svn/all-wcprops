@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/Team-SAD/!svn/ver/245/AWGP/AWGP/AWGP/Input/InputDevices
+END
+MouseMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Team-SAD/!svn/ver/178/AWGP/AWGP/AWGP/Input/InputDevices/MouseMonitor.cs
+END
+KeyboardMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/Team-SAD/!svn/ver/158/AWGP/AWGP/AWGP/Input/InputDevices/KeyboardMonitor.cs
+END
+GamePadsMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/Team-SAD/!svn/ver/245/AWGP/AWGP/AWGP/Input/InputDevices/GamePadsMonitor.cs
+END

@@ -1,0 +1,46 @@
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Background_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Collectible_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Wall_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\PointLight.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\PlatformInputManager.xml
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\PlatformGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\PlatformGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\PlatformGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\PlatformGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Background_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Collectible_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Player_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Wall_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Background_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Background_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Collectible_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Collectible_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Player_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Player_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Wall_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Wall_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\PointLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Effects\DirectionalLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\PlatformInputManager.xml
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\PlatformGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\PlatformGame.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\AWGP.dll
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\AWGP.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\PlatformGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\PlatformGame\PlatformGame\obj\x86\Debug\PlatformGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Default.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Player0_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Player1_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\PlatformGame\PlatformGame\bin\x86\Debug\Content\Sprites\Player2_a.xnb

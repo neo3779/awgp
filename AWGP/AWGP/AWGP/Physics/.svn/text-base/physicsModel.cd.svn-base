@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AWGP.physObj">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAAAAAAgAAAAIAAAAAAAAAQAAAQAAAAEAAE=</HashCode>
+      <FileName>physObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.collidingPhysObj">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>collidingPhysObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.collisionManager">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAAAgAAQAA=</HashCode>
+      <FileName>collisionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.physManager">
+    <Position X="14.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>physManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.physParticle">
+    <Position X="0.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>physParticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.particleEmitter">
+    <Position X="10.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAAEAAA=</HashCode>
+      <FileName>particleEmitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.collidingPhysParticle">
+    <Position X="4.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>physParticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

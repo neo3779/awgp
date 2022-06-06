@@ -1,0 +1,85 @@
+﻿<players>
+  <p>Call of duty test input</p>
+  
+  <player playersName="PLAYER_0" control ="GAMEPAD">
+    <move type ="BUTTON" control ="A" moverName="JUMP"></move>
+    <move type ="BUTTON" control ="B" moverName="STANCE"></move>
+    <move type ="BUTTON" control ="Y" moverName="CHANGE_WEAPON"></move>
+    <move type ="BUTTON" control ="X" moverName="RELOAD"></move>
+    <move type ="BUTTON" control ="LeftShoulder" moverName="THROW_SPECIAL_GRENADE"></move>
+    <move type ="BUTTON" control ="RightShoulder" moverName="THROW_GRENADE"></move>
+    <move type ="BUTTON" control ="LeftStick" moverName="SPRINT"></move>
+    <move type ="BUTTON" control ="RightStick" moverName="MELEE"></move>
+    <move type ="BUTTON" control ="Back" moverName="OBJECTIVES"></move>
+    <move type ="BUTTON" control ="Start" moverName="PAUSE"></move>
+    
+    <move type ="RIGHT_TRIGGER" control ="CHANGE" moverName="FIRE"></move>
+    <move type ="LEFT_TRIGGER" control ="CHANGE" moverName="AIM"></move>
+    
+    <move type ="LEFT_STICK" control ="NONE" moverName="STOP"></move>
+    <move type ="LEFT_STICK" control ="UP" moverName="MOVE_FORWARD"></move>
+    <move type ="LEFT_STICK" control ="DOWN" moverName="MOVE_BACK"></move>
+    <move type ="LEFT_STICK" control ="RIGHT" moverName="MOVE_RIGHT"></move>
+    <move type ="LEFT_STICK" control ="LEFT" moverName="MOVE_LEFT"></move>
+
+    <move type ="RIGHT_STICK" control ="NONE" moverName="STOP"></move>
+    <move type ="RIGHT_STICK" control ="UP" moverName="LOOK_UP"></move>
+    <move type ="RIGHT_STICK" control ="DOWN" moverName="LOOK_DOWN"></move>
+    <move type ="RIGHT_STICK" control ="RIGHT" moverName="LOOK_RIGHT"></move>
+    <move type ="RIGHT_STICK" control ="LEFT" moverName="LOOK_LEFT"></move>
+
+    <move type ="DPAD" control ="NONE" moverName="NOTHING"></move>
+    <move type ="DPAD" control ="UP" moverName="AIRSTRIKE"></move>
+    <move type ="DPAD" control ="LEFT" moverName="UAV"></move>
+    <move type ="DPAD" control ="RIGHT" moverName="HELICOPTER"></move>
+    <move type ="DPAD" control ="DOWN" moverName="NIGHT_VISION_GOGGLES"></move>
+  </player>
+  
+  <p>List of keys that can be used: http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.input.keys.aspx </p>
+
+  <!--<player playersName="PLAYER_1" control ="KEYBOARD">
+    <move type ="BUTTON" control ="Q" moverName="JUMP"></move>
+    <move type ="BUTTON" control ="A" moverName="STANCE"></move>
+    <move type ="BUTTON" control ="Z" moverName="CHANGE_WEAPON"></move>
+    <move type ="BUTTON" control ="E" moverName="RELOAD"></move>
+    <move type ="BUTTON" control ="D" moverName="THROW_SPECIAL_GRENADE"></move>
+    <move type ="BUTTON" control ="C" moverName="THROW_GRENADE"></move>
+    <move type ="BUTTON" control ="R" moverName="SPRINT"></move>
+    <move type ="BUTTON" control ="F" moverName="MELEE"></move>
+    <move type ="BUTTON" control ="V" moverName="OBJECTIVES"></move>
+    <move type ="BUTTON" control ="T" moverName="PAUSE"></move>
+    <move type ="BUTTON" control ="G" moverName="FIRE"></move>
+    <move type ="BUTTON" control ="B" moverName="AIM"></move>
+    <move type ="BUTTON" control ="Y" moverName="MOVE_FORWARD"></move>
+    <move type ="BUTTON" control ="H" moverName="MOVE_BACK"></move>
+    <move type ="BUTTON" control ="N" moverName="MOVE_RIGHT"></move>
+    <move type ="BUTTON" control ="U" moverName="MOVE_LEFT"></move>
+    <move type ="BUTTON" control ="J" moverName="LOOK_UP"></move>
+    <move type ="BUTTON" control ="M" moverName="LOOK_DOWN"></move>
+    <move type ="BUTTON" control ="I" moverName="LOOK_RIGHT"></move>
+    <move type ="BUTTON" control ="1" moverName="LOOK_LEFT"></move>
+    <move type ="BUTTON" control ="2" moverName="AIRSTRIKE"></move>
+    <move type ="BUTTON" control ="3" moverName="UAV"></move>
+    <move type ="BUTTON" control ="4" moverName="HELICOPTER"></move>
+    <move type ="BUTTON" control ="5" moverName="NIGHT_VISION_GOGGLES"></move>
+  </player>-->
+
+  <!--<player playersName="PLAYER_2" control ="MOUSE">
+    
+    <move type ="MOUSE_AXIS" control ="UP" moverName="LOOK_UP"></move>
+    <move type ="MOUSE_AXIS" control ="DOWN" moverName="LOOK_DOWN"></move>
+    <move type ="MOUSE_AXIS" control ="RIGHT" moverName="LOOK_RIGHT"></move>
+    <move type ="MOUSE_AXIS" control ="LEFT" moverName="LOOK_LEFT"></move>
+    
+    <move type ="MOUSE_WHEEL" control ="UP" moverName="CHANGE_WEAPON"></move>
+    <move type ="MOUSE_WHEEL" control ="DOWN" moverName="RELOAD"></move>
+
+    <move type ="BUTTON" control ="LEFTBUTTON" moverName="FIRE"></move>
+    <move type ="BUTTON" control ="RIGHTBUTTON" moverName="AIM"></move>
+    <move type ="BUTTON" control ="MIDDLEBUTTON" moverName="SPRINT"></move>
+    <move type ="BUTTON" control ="EXTRABUTTON1" moverName="HELICOPTER"></move>
+    <move type ="BUTTON" control ="EXTRABUTTON2" moverName="UAV"></move>
+
+  </player>-->
+  
+</players>

@@ -1,0 +1,340 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:Program.cs" caret="0" fromTop="0" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:Goop.cs" caret="3770" fromTop="13" />
+      <File id="06EE82A6-49B7-468C-9412-E2A3C2DCA4E2/f:RacingGame.cs" caret="1425" fromTop="0" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopCollector.cs" caret="2781" fromTop="19" />
+      <File id="06EE82A6-49B7-468C-9412-E2A3C2DCA4E2/f:CarEntity.cs" caret="10590" fromTop="18" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopGame.cs" caret="1620" fromTop="14" />
+      <File id="5C0B0917-43BC-4EB0-AB8E-0DD2E3CF6925/f:PlatformGame.cs" caret="3940" fromTop="25" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="1025" fromTop="20" />
+      <File id="03AF080E-4F97-4A2A-A851-B5ED9DD20170/f:InputManager.xml" caret="734" fromTop="12" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="3126" fromTop="25" />
+      <File id="B7DC77BD-2652-4B6C-8D0A-3DF8AADE772E/d:Input/f:InputManager.cs" caret="50320" fromTop="16" />
+      <File id="076B6B31-EED6-4AAD-8081-8B4161360E3E/f:InputDefinitions.xml" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="48" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="0" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="11" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="13" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="8" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="19" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9139" fromTop="47" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="3809" fromTop="0" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="9140" fromTop="48" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="5613" fromTop="16" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="6511" fromTop="32" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="7413" fromTop="48" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="3368" fromTop="32" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="1223" fromTop="11" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="673" fromTop="10" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="3856" fromTop="7" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="4702" fromTop="29" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopCollector.cs" caret="2780" fromTop="9" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopCollector.cs" caret="2781" fromTop="19" />
+      <File id="03AF080E-4F97-4A2A-A851-B5ED9DD20170/f:InputManager.xml" caret="4890" fromTop="36" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="1364" fromTop="27" />
+      <File id="3059152D-1887-4D2D-B2F7-BDCFD84DAD73/f:GoopPlayer.cs" caret="3126" fromTop="12" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="172" fromTop="3" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="544" fromTop="10" />
+      <File id="B7DC77BD-2652-4B6C-8D0A-3DF8AADE772E/d:Input/f:InputManager.cs" caret="50641" fromTop="25" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="1325" fromTop="22" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="1378" fromTop="29" />
+      <File id="F5B5034C-A53F-4CA5-AC94-B4629D313429/f:GoopInputManager.xml" caret="1025" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="ce" priority="31" />
+      <Item value="Vector2`0" priority="447" />
+      <Item value="Version`0" priority="63" />
+      <Item value="float" priority="447" />
+      <Item value="new" priority="799" />
+      <Item value="Vector3" priority="57" />
+      <Item value="position" priority="127" />
+      <Item value="PlayersName`0" priority="122" />
+      <Item value="AWGP" priority="127" />
+      <Item value="forceType`0" priority="53" />
+      <Item value="lightHeirachy" priority="31" />
+      <Item value="collidingCirclePhysObj`0" priority="31" />
+      <Item value="Type" priority="28" />
+      <Item value="Type`0" priority="31" />
+      <Item value="Vector2" priority="289" />
+      <Item value="type" priority="31" />
+      <Item value="color" priority="223" />
+      <Item value="if" priority="351" />
+      <Item value="colourCount" priority="256" />
+      <Item value="Count`1" priority="26" />
+      <Item value="int" priority="543" />
+      <Item value="Color`0" priority="95" />
+      <Item value="colour" priority="159" />
+      <Item value="private" priority="575" />
+      <Item value="NotFiniteNumberException`0" priority="31" />
+      <Item value="return" priority="127" />
+      <Item value="this" priority="479" />
+      <Item value="numberOfGloops" priority="95" />
+      <Item value="input" priority="95" />
+      <Item value="string" priority="63" />
+      <Item value="switch" priority="31" />
+      <Item value="using" priority="154" />
+      <Item value="System" priority="92" />
+      <Item value="InactiveSleepTime" priority="31" />
+      <Item value="for" priority="223" />
+      <Item value="i" priority="383" />
+      <Item value="numberOfPlayers" priority="95" />
+      <Item value="PLAYER_0" priority="33" />
+      <Item value="name" priority="31" />
+      <Item value="rotation" priority="31" />
+      <Item value="startXBackgornd" priority="31" />
+      <Item value="PointSpriteComponent`0" priority="31" />
+      <Item value="half" priority="95" />
+      <Item value="Microsoft" priority="30" />
+      <Item value="deadZone" priority="63" />
+      <Item value="x" priority="32" />
+      <Item value="y" priority="31" />
+      <Item value="Console`0" priority="63" />
+      <Item value="readonly" priority="31" />
+      <Item value="deadZoneMode" priority="31" />
+      <Item value="GamePadDeadZone`0" priority="31" />
+      <Item value="Threading" priority="26" />
+      <Item value="Thread`0" priority="31" />
+      <Item value="newThread" priority="31" />
+      <Item value="playerEvent" priority="129" />
+      <Item value="s" priority="31" />
+      <Item value="public" priority="191" />
+      <Item value="TextComponent`0" priority="63" />
+      <Item value="text" priority="127" />
+      <Item value="TextComponent" priority="57" />
+      <Item value="content" priority="127" />
+      <Item value="texCol" priority="31" />
+      <Item value="Environment`0" priority="31" />
+      <Item value="Goop`0" priority="63" />
+      <Item value="base" priority="31" />
+      <Item value="random" priority="322" />
+      <Item value="entities" priority="127" />
+      <Item value="GoopCollector" priority="28" />
+      <Item value="colString" priority="31" />
+      <Item value="Content" priority="31" />
+      <Item value="startTime" priority="95" />
+      <Item value="font" priority="31" />
+      <Item value="gameTime" priority="63" />
+      <Item value="true" priority="127" />
+      <Item value="physics" priority="95" />
+      <Item value="LoadContent`0" priority="31" />
+      <Item value="PlaneIntersectionType`0" priority="31" />
+      <Item value="j" priority="95" />
+      <Item value="numberOfGoop" priority="63" />
+      <Item value="ref" priority="223" />
+      <Item value="rest`0" priority="31" />
+      <Item value="Random`0" priority="63" />
+      <Item value="double" priority="31" />
+      <Item value="right" priority="63" />
+      <Item value="left" priority="63" />
+      <Item value="gravity" priority="31" />
+      <Item value="foreach" priority="63" />
+      <Item value="g" priority="95" />
+      <Item value="maxRad" priority="31" />
+      <Item value="else" priority="191" />
+      <Item value="FlagsAttribute`0" priority="31" />
+      <Item value="protected" priority="31" />
+      <Item value="break" priority="191" />
+      <Item value="initialForce" priority="31" />
+      <Item value="List" priority="127" />
+      <Item value="List&lt;float&gt;" priority="86" />
+      <Item value="forceRandom" priority="63" />
+      <Item value="GoopCollector`0" priority="30" />
+      <Item value="c" priority="63" />
+      <Item value="var" priority="31" />
+      <Item value="Int16`0" priority="31" />
+      <Item value="in" priority="31" />
+      <Item value="GoopPlayer`0" priority="31" />
+      <Item value="p" priority="95" />
+      <Item value="Exit`0" priority="31" />
+      <Item value="case" priority="95" />
+      <Item value="bool" priority="127" />
+      <Item value="false" priority="95" />
+      <Item value="gamego" priority="191" />
+      <Item value="gameStartTime" priority="31" />
+      <Item value="b" priority="31" />
+      <Item value="switchBool`0" priority="31" />
+      <Item value="default" priority="31" />
+      <Item value="gameDuration" priority="128" />
+      <Item value="NullReferenceException`0" priority="31" />
+      <Item value="BadImageFormatException`0" priority="31" />
+      <Item value="void" priority="31" />
+      <Item value="reset" priority="63" />
+      <Item value="forces" priority="159" />
+      <Item value="const" priority="31" />
+      <Item value="Draw`0" priority="31" />
+      <Item value="InputStatus`0" priority="223" />
+      <Item value="AWGPTesting" priority="30" />
+      <Item value="InputManager`0" priority="31" />
+      <Item value="inputManager" priority="96" />
+      <Item value="InputManager" priority="28" />
+      <Item value="try" priority="31" />
+      <Item value="PlayerEvent`0" priority="31" />
+      <Item value="KeyboardMonitor`0" priority="31" />
+      <Item value="keyboardMonitor" priority="32" />
+      <Item value="MouseMonitor`0" priority="31" />
+      <Item value="mouseMonitor" priority="32" />
+      <Item value="GamePadMonitor`0" priority="31" />
+      <Item value="gamePadMonitor" priority="32" />
+      <Item value="Player`0" priority="31" />
+      <Item value="PlayerMoves`0" priority="63" />
+      <Item value="playerMoves" priority="64" />
+      <Item value="PlayerEvent" priority="86" />
+      <Item value="playersName" priority="96" />
+      <Item value="inputStatus" priority="224" />
+      <Item value="MemberwiseClone`0" priority="31" />
+      <Item value="NONE" priority="16" />
+      <Item value="player" priority="31" />
+      <Item value="Player" priority="28" />
+      <Item value="Controls`0" priority="63" />
+      <Item value="moves" priority="31" />
+      <Item value="controls" priority="64" />
+      <Item value="GAMEPAD" priority="16" />
+      <Item value="PlayerMoves" priority="28" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AWGP.Components.Type">
+      <Item value="COLLIDINGCIRCLE" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Xna.Framework.Vector2">
+      <Item value="X" priority="53" />
+      <Item value="Y" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Xna.Framework.Vector2">
+      <Item value="Zero" priority="242" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AWGP.PlayersName">
+      <Item value="PLAYER_0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AWGP.forceType">
+      <Item value="VECTOR" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWGP.Components.HeirachyComponent">
+      <Item value="HandlePositionChanged`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Remove`0" priority="27" />
+      <Item value="Add`0" priority="81" />
+      <Item value="Sort`0" priority="26" />
+      <Item value="OfType`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Xna.Framework.Color">
+      <Item value="Yellow" priority="26" />
+      <Item value="FromNonPremultiplied`0" priority="26" />
+      <Item value="Wheat" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Xna.Framework.Color">
+      <Item value="ToString`0" priority="26" />
+      <Item value="PackedValue" priority="26" />
+      <Item value="A" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWGP.InputManager">
+      <Item value="numberOfPlayers" priority="26" />
+      <Item value="NumberOfPlayers" priority="53" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.UInt32">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWGP.PlayersName">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="CompareTo`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWGP.GamePadMonitor">
+      <Item value="curGamePadState" priority="26" />
+      <Item value="preRightStickState" priority="26" />
+      <Item value="preLeftStickState" priority="26" />
+      <Item value="preDpadState" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Xna.Framework.Input.GamePadState">
+      <Item value="Triggers" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Xna.Framework.Input.GamePadTriggers">
+      <Item value="Left" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Xna.Framework.Input.GamePadDeadZone">
+      <Item value="Circular" priority="26" />
+      <Item value="IndependentAxes" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="53" />
+      <Item value="NextDouble`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Xna.Framework.GameTime">
+      <Item value="ElapsedGameTime" priority="53" />
+      <Item value="TotalGameTime" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Seconds" priority="107" />
+      <Item value="Milliseconds" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWGP.Components.PhysicsComponent">
+      <Item value="Enabled" priority="53" />
+      <Item value="Id" priority="53" />
+      <Item value="Rotation" priority="26" />
+      <Item value="ApplyForce`0" priority="26" />
+      <Item value="NotifyCollision" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GoopGame.Goop">
+      <Item value="physics" priority="53" />
+      <Item value="numberOfGoop" priority="107" />
+      <Item value="random" priority="26" />
+      <Item value="right" priority="26" />
+      <Item value="left" priority="26" />
+      <Item value="rotDirection" priority="26" />
+      <Item value="RotDirection" priority="26" />
+      <Item value="Rest`0" priority="53" />
+      <Item value="initialForce" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GoopGame.GoopCollector">
+      <Item value="physics" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GoopGame.GoopPlayer">
+      <Item value="exitGame" priority="26" />
+      <Item value="start_stop" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWGP.Components.TextComponent">
+      <Item value="Text" priority="26" />
+      <Item value="Position" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AWGP.InputStatus">
+      <Item value="START" priority="80" />
+      <Item value="STOP" priority="81" />
+      <Item value="NONE" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AWGP.Controls">
+      <Item value="GAMEPAD" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

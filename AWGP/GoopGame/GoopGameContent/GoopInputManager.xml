@@ -1,0 +1,29 @@
+﻿<players>
+  <player playersName="PLAYER_0" control ="GAMEPAD">
+    <move type ="BUTTON" control ="Back" moverName="EXIT"></move>
+    <move type ="BUTTON" control ="Start" moverName="START_STOP"></move>
+    <move type ="BUTTON" control ="A" moverName="LEFT"></move>
+    <move type ="BUTTON" control ="X" moverName="RIGHT"></move> 
+  </player>
+
+  <player playersName="PLAYER_1" control ="GAMEPAD">
+    <move type ="BUTTON" control ="Back" moverName="EXIT"></move>
+    <move type ="BUTTON" control ="Start" moverName="START_STOP"></move>
+    <move type ="BUTTON" control ="A" moverName="LEFT"></move>
+    <move type ="BUTTON" control ="X" moverName="RIGHT"></move>
+  </player>
+
+  <player playersName="PLAYER_2" control ="GAMEPAD">
+    <move type ="BUTTON" control ="Back" moverName="EXIT"></move>
+    <move type ="BUTTON" control ="Start" moverName="START_STOP"></move>
+    <move type ="BUTTON" control ="A" moverName="LEFT"></move>
+    <move type ="BUTTON" control ="X" moverName="RIGHT"></move>
+  </player>
+
+  <player playersName="PLAYER_3" control ="GAMEPAD">
+    <move type ="BUTTON" control ="Back" moverName="EXIT"></move>
+    <move type ="BUTTON" control ="Start" moverName="START_STOP"></move>
+    <move type ="BUTTON" control ="A" moverName="LEFT"></move>
+    <move type ="BUTTON" control ="X" moverName="RIGHT"></move>
+  </player>
+</players>

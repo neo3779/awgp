@@ -1,0 +1,62 @@
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\PointLight.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\GoopInputManager.xml
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\GoopGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\GoopGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\obj\x86\Debug\GoopGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\obj\x86\Debug\GoopGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Background_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopEmitter_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopReciever_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Wall_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopEmitter_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopEmitter_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopReciever_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopReciever_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Wall_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Wall_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Goop_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Goop_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Player_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Player_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Player_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Background_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Background_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Background_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\Goop_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\PointLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Effects\DirectionalLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\GoopInputManager.xml
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\GoopGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\GoopGame.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\AWGP.dll
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\AWGP.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\obj\x86\Debug\GoopGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\obj\x86\Debug\GoopGame.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Font\font.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Font\font.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopBlue_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopGreen_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopRed_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopYellow_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Default.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\font.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorBlue_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorGreen_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorRed_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\GoopCollectorYellow_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerBlue_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerGreen_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerRed_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\GoopGame\GoopGame\bin\x86\Debug\Content\Sprites\PlayerYellow_a.xnb

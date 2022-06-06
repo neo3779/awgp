@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 50
+bin
+obj
+Service References
+AWGP.sln.docstates.suo
+
+END

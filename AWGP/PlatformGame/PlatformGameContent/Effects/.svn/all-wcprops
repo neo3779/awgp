@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Team-SAD/!svn/ver/255/AWGP/PlatformGame/PlatformGameContent/Effects
+END
+AmbientLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/Team-SAD/!svn/ver/255/AWGP/PlatformGame/PlatformGameContent/Effects/AmbientLight.fx
+END
+PointSpriteOpaque.fx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/Team-SAD/!svn/ver/255/AWGP/PlatformGame/PlatformGameContent/Effects/PointSpriteOpaque.fx
+END
+SpotLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/Team-SAD/!svn/ver/255/AWGP/PlatformGame/PlatformGameContent/Effects/SpotLight.fx
+END
+PointLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/Team-SAD/!svn/ver/255/AWGP/PlatformGame/PlatformGameContent/Effects/PointLight.fx
+END

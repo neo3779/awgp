@@ -1,0 +1,126 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+
+namespace AWGP
+{
+    public class PlayerEvent
+    {
+        private PlayersName playerName;
+        private string move;
+        private float floatPos;
+        private Vector2 vectorPos;
+        private InputStatus status;
+        private float floatVel;
+        private Vector2 vectorVel;
+
+        public PlayerEvent(PlayersName playerName, string move,InputStatus status)
+        {
+            this.playerName = playerName;
+            this.move = move;
+            this.status = status;
+            this.floatPos = 0;
+            this.vectorPos = new Vector2(0, 0);
+            this.floatVel = 0;
+            this.vectorVel = new Vector2(0, 0);
+        }
+
+        public PlayerEvent(PlayersName playerName, float floatPos, float floatVel)
+        {
+            this.playerName = playerName;
+            this.move = "";
+            this.status = InputStatus.NONE;
+            this.floatPos = floatPos;
+            this.vectorPos = new Vector2(0, 0);
+            this.floatVel = floatVel;
+        }
+
+        public PlayerEvent(PlayersName playerName, Vector2 vectorPos, Vector2 vectorVel)
+        {
+            this.playerName = playerName;
+            this.move = "";
+            this.status = InputStatus.NONE;
+            this.floatPos = 0;
+            this.vectorPos = vectorPos;
+            this.vectorVel = vectorVel;
+        }
+
+        public PlayerEvent(PlayersName playerName, InputStatus status)
+        {
+            this.playerName = playerName;
+            this.move = "";
+            this.status = status;
+            this.floatPos = 0;
+            this.vectorPos = new Vector2(0, 0);
+            this.floatVel = 0;
+            this.vectorVel = new Vector2(0, 0);
+        }
+
+        public PlayerEvent(PlayersName playerName)
+        {
+            this.playerName = playerName;
+            this.move = "";
+            this.status = InputStatus.NONE;
+            this.floatPos = 0;
+            this.vectorPos = new Vector2(0, 0);
+            this.floatVel = 0;
+            this.vectorVel = new Vector2(0, 0);
+        }
+        ~PlayerEvent()
+        {
+            
+
+        }
+
+        public PlayersName PlayerName
+        {
+            get { return this.playerName; }
+        }
+
+        public string Move
+        {
+            get { return this.move; }
+        }
+
+        public float FloatPos
+        {
+            get { return this.floatPos; }
+        }
+
+        public float FloatVel
+        {
+            get { return this.floatVel; }
+        }
+
+        public Vector2 VectorPos
+        {
+            get { return this.vectorPos; }
+        }
+
+        public Vector2 VectorVel
+        {
+            get { return this.vectorVel; }
+        }
+        public new string ToString()
+        {
+            string s = "";
+            s += "Player: " + this.playerName.ToString();
+            s += Environment.NewLine;
+            s += "Move: " + this.move.ToString();
+            s += Environment.NewLine;
+            s += "Float Pos: " + this.floatPos.ToString();
+            s += Environment.NewLine;
+            s += "Float Vel: " + this.floatVel.ToString();
+            s += Environment.NewLine;
+            s += "Vector Pos: " + this.vectorPos.ToString();
+            s += Environment.NewLine;
+            s += "Vector Vel: " + this.vectorVel.ToString();
+            s += Environment.NewLine;
+            s += "Status: " + status.ToString();
+            return s;
+
+        }
+    }
+}

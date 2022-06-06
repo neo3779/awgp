@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="06EE82A6-49B7-468C-9412-E2A3C2DCA4E2" ModuleId="RacingGame" />
+  <Module PersistentId="B7DC77BD-2652-4B6C-8D0A-3DF8AADE772E" ModuleId="AWGP" />
+  <Module PersistentId="3059152D-1887-4D2D-B2F7-BDCFD84DAD73" ModuleId="GoopGame" />
+  <Module PersistentId="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553" ModuleId="Microsoft.Xna.Framework" />
+  <Module PersistentId="5C0B0917-43BC-4EB0-AB8E-0DD2E3CF6925" ModuleId="PlatformGame" />
+  <Module PersistentId="E9076B26-DF8F-4930-B3A4-78C903331397" ModuleId="Input" />
+  <Module PersistentId="2A6C866C-1158-439E-B21F-86CEE8B6F8EE" ModuleId="AWGPTesting" />
+</Modules>

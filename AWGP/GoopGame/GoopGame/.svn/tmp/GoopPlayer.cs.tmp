@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using AWGP;
+using Microsoft.Xna.Framework.Content;
+using AWGP.Components;
+using AWGP.Graphics.Components;
+using AWGP.Graphics;
+using Microsoft.Xna.Framework;
+
+namespace GoopGame
+{
+    class GoopPlayer :  Entity
+    {
+        public PhysicsComponent physics;
+        public PlayerInputComponent input;
+        public PointLightComponent lightA, lightB;
+        public HeirachyComponent lightAHeirachy, lightBHeirachy;
+        public PointSpriteComponent sprite;
+
+        public GoopPlayer(ContentManager content,  Vector2 position,  Vector2 initialVelocity, Vector2 initalForce, float mass, PlayersName player, String id)
+            : base( content )
+        {
+
+            sprite = new PointSpriteComponent(content, RenderTargetEnum.GBuffer, new Vector3(position.X,position.Y,0.0f),0.0f, Vector2.One, "Sprites\\Player_a", "Sprites\\Player_n", "Sprites\\Player_s");
+            components.Add(sprite);
+
+<<<<<<< .mine
+            physics = new PhysicsComponent(position, initialVelocity, initalForce ,mass, false, AWGP.Components.Type.COLLIDINGCIRCLE, Vector2.UnitX, "PLAYER_" + id);
+=======
+            physics = new PhysicsComponent(Vector2.Zero, Vector2.Zero, Vector2.Zero, 0.0f, false, Vector2.UnitX, id);
+>>>>>>> .r170
+            physics.NotifyPositionChanged += sprite.HandlePositionChanged;
+            components.Add(physics);
+
+            lightA = new PointLightComponent(content, RenderTargetEnum.BackBuffer, new Vector3(position.X + 0.5f, position.Y - 0.5f, 0.0f), Color.Red, 5.0f, 1.0f);
+            lightB = new PointLightComponent(content, RenderTargetEnum.BackBuffer, new Vector3(position.X + 0.5f, position.Y - 0.5f, 0.0f), Color.Blue, 50f, 1.0f);
+            components.Add(lightA);
+            components.Add(lightB);
+
+            lightAHeirachy = new HeirachyComponent(new Vector2(0.5f, 0.25f), true, true);
+            lightBHeirachy = new HeirachyComponent(new Vector2(-0.5f, 0.25f), true, true);
+            physics.NotifyPositionChanged += lightAHeirachy.HandlePositionChanged;
+            physics.NotifyPositionChanged += lightBHeirachy.HandlePositionChanged;
+            lightAHeirachy.NotifyPositionChanged += lightA.HandlePositionChanged;
+            lightBHeirachy.NotifyPositionChanged += lightB.HandlePositionChanged;
+            
+            components.Add(lightAHeirachy);
+            components.Add(lightBHeirachy);
+
+            input = new PlayerInputComponent(player, true);
+            input.NotifyInputEvent += HandleInputEvent;
+            components.Add(input);
+            
+        }
+        protected virtual void HandleInputEvent(object sender, EventArgs e)
+        {
+            PlayerEvent pe = (PlayerEvent)sender;
+
+            switch (pe.Move)
+            {
+                case "EXIT":
+                    break;
+                case "UP":
+                    //physics.ApplyForce();
+                    break;
+                case "DOWN":
+                    //physics.ApplyForce(new Vector2(0, -10), 5);
+                    break;
+                case "RIGHT":
+                    //physics.ApplyForce(new Vector2(10,0), 5);
+                    break;
+                case "LEFT":
+                    //physics.ApplyForce(new Vector2(-10, 0), 5);
+                    break;
+                case "NONE":
+                    //physics.ApplyForce(new Vector2(0, 0), 5);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+}

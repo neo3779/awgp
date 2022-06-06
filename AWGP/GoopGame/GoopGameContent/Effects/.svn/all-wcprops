@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/Team-SAD/!svn/ver/255/AWGP/GoopGame/GoopGameContent/Effects
+END
+AmbientLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/Team-SAD/!svn/ver/255/AWGP/GoopGame/GoopGameContent/Effects/AmbientLight.fx
+END
+PointSpriteOpaque.fx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/Team-SAD/!svn/ver/255/AWGP/GoopGame/GoopGameContent/Effects/PointSpriteOpaque.fx
+END
+SpotLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/Team-SAD/!svn/ver/255/AWGP/GoopGame/GoopGameContent/Effects/SpotLight.fx
+END
+PointLight.fx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Team-SAD/!svn/ver/255/AWGP/GoopGame/GoopGameContent/Effects/PointLight.fx
+END

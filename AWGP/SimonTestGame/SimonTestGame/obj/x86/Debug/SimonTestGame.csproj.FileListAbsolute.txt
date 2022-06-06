@@ -1,0 +1,8 @@
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\bin\x86\Debug\SimonTestGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\bin\x86\Debug\SimonTestGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\bin\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\bin\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\obj\x86\Debug\SimonTestGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\SimonTestGame\SimonTestGame\obj\x86\Debug\SimonTestGame.pdb

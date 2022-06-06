@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AWGP.Graphics.GraphicsSystem" Collapsed="true">
+    <Position X="14.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAIgA4EAAAAAAAAAAAAAAAQQAAAAAAAQgAQ=</HashCode>
+      <FileName>Graphics\GraphicsSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="renderer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="renderables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AWGP.Graphics.GraphicsComponent" Collapsed="true">
+    <Position X="14" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABACBAggAAAAIAAAQCABAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Graphics\GraphicsComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Graphics.Renderer" Collapsed="true">
+    <Position X="14.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAABEACAAAAAAAAAAAAAAAIAAAQCAAEQBAEAABAAAI=</HashCode>
+      <FileName>Components\AmbientLightComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rendererState" />
+      <Field Name="activeCamera" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AWGP.Graphics.States.IRendererState" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAgAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\States\IRendererState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Graphics.States.RendererStateText" Collapsed="true">
+    <Position X="11.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\States\RendererStateText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Graphics.States.RendererStateNull" Collapsed="true">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\States\RendererStateNull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Graphics.States.RendererStateSprite" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\States\RendererStateSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Components.AmbientLightComponent" Collapsed="true">
+    <Position X="7.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAACBAAAAggAAAAIEAAAAAIAAAACAAAAAAAABAAAAA=</HashCode>
+      <FileName>Components\AmbientLightComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="renderTarget" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AWGP.Components.PerspCameraComponent" Collapsed="true">
+    <Position X="15.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\PerspCameraComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Components.TextComponent" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAgCAAgAAEAAAAAIAAAAAACIAAAAiAACAAA=</HashCode>
+      <FileName>Components\TextComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AWGP.Components.PointLightComponent" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAICBAACAggAAAAIEAAAAAIAAAACAAAAAAAABAAAAA=</HashCode>
+      <FileName>Components\PointLightComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="renderTarget" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AWGP.Graphics.CameraComponent" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAIAACAAAAAAAAAAAAAAABAAAAAAAAAEAQAAI=</HashCode>
+      <FileName>Components\CameraComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Graphics.Components.OrthoCameraComponent" Collapsed="true">
+    <Position X="18" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Components\OrthoCameraComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.Graphics.Components.PointSpriteComponent" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACBAAAUgiAoAAIECAAAgKAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Components\PointSpriteComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="renderTarget" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AWGP.Graphics.IRenderable" Collapsed="true">
+    <Position X="14.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAgAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\IRenderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AWGP.Graphics.RenderTargetEnum" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAA=</HashCode>
+      <FileName>Graphics\Renderer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

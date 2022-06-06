@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/Team-SAD/!svn/ver/260/AWGP/AWGP/AWGP/Components
+END
+CameraComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/Team-SAD/!svn/ver/243/AWGP/AWGP/AWGP/Components/CameraComponent.cs
+END
+HeirachyComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/Team-SAD/!svn/ver/243/AWGP/AWGP/AWGP/Components/HeirachyComponent.cs
+END
+PlayerInputComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Team-SAD/!svn/ver/139/AWGP/AWGP/AWGP/Components/PlayerInputComponent.cs
+END
+SpotLightComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/Team-SAD/!svn/ver/260/AWGP/AWGP/AWGP/Components/SpotLightComponent.cs
+END
+InputComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/Team-SAD/!svn/ver/139/AWGP/AWGP/AWGP/Components/InputComponent.cs
+END
+PointSpriteComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Team-SAD/!svn/ver/255/AWGP/AWGP/AWGP/Components/PointSpriteComponent.cs
+END
+PointLightComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/Team-SAD/!svn/ver/255/AWGP/AWGP/AWGP/Components/PointLightComponent.cs
+END
+PerspCameraComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Team-SAD/!svn/ver/155/AWGP/AWGP/AWGP/Components/PerspCameraComponent.cs
+END
+PhysicsComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Team-SAD/!svn/ver/243/AWGP/AWGP/AWGP/Components/PhysicsComponent.cs
+END
+OrthoCameraComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Team-SAD/!svn/ver/198/AWGP/AWGP/AWGP/Components/OrthoCameraComponent.cs
+END
+TextComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/Team-SAD/!svn/ver/202/AWGP/AWGP/AWGP/Components/TextComponent.cs
+END
+AmbientLightComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/Team-SAD/!svn/ver/255/AWGP/AWGP/AWGP/Components/AmbientLightComponent.cs
+END

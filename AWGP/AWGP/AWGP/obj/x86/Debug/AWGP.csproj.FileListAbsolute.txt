@@ -1,0 +1,12 @@
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AWGP\AWGP\bin\x86\Debug\AWGP.dll
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AWGP\AWGP\bin\x86\Debug\AWGP.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AWGP\AWGP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AWGP\AWGP\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AWGP\AWGP\obj\x86\Debug\AWGP.dll
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\AWGP\AWGP\obj\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AWGP\AWGP\bin\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AWGP\AWGP\bin\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AWGP\AWGP\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AWGP\AWGP\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AWGP\AWGP\obj\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\AWGP\AWGP\obj\x86\Debug\AWGP.pdb

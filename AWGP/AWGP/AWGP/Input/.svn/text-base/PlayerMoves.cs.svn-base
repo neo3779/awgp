@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace AWGP
+{
+    [Serializable]
+    public class PlayerMoves
+    {
+        public string move;
+        public string control;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="control"></param>
+        /// <param name="move"></param>
+        public PlayerMoves(string control, string move)
+        {
+            this.control = control;
+            this.move = move;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        ~PlayerMoves()
+        {
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Move
+        {
+            get { return move; }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public string Control
+        {
+            get { return control; }
+        }
+    }
+}

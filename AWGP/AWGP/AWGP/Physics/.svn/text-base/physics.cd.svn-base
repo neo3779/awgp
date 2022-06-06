@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AWGP.collidingPhysObj" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAA=</HashCode>
+      <FileName>Physics\collidingPhysObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.collisionManager" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAQAAAAAAAAAAEAAAAAKABAAAAAAAAAgIAQAA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collisionsThisFrame" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="collidingObjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AWGP.particleEmitter" Collapsed="true">
+    <Position X="3.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAECAEAAAAAAAAAAAgAAAABAAAAAAAAAAAAEAAEAAA=</HashCode>
+      <FileName>Physics\particleEmitter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="effect" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="particles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AWGP.physObj" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIgSAAQwAAAABIAgCACwIAAYAAAACARAACQEACCMAgE=</HashCode>
+      <FileName>Physics\physObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.physManager" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAYQgAEEAAAAAAAAIAAAAQAAAAACAAAQAAQ=</HashCode>
+      <FileName>Physics\physManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collisionManager" />
+      <Field Name="forceManager" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="physObjects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AWGP.physParticle" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <InheritanceLine Type="AWGP.physObj" FixedFromPoint="true">
+      <Path>
+        <Point X="3.75" Y="2.312" />
+        <Point X="3.75" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAABACAAAAAAAEAAAABBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\physParticle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AWGP.collidingPhysParticle" Collapsed="true">
+    <Position X="0.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAEAAAABBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\physParticle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AWGP.collisionEventArgs" Collapsed="true">
+    <Position X="9" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="collisionsThisFrame" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AWGP.collidingCirclePhysObj" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\collidingCirclePhysObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.collidingBoxPhysObj" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Physics\collidingBoxPhysObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.force" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAACAAAAAAAABAAIQABCAAAAQkAAAEBAAA=</HashCode>
+      <FileName>Physics\force.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AWGP.forceApplier" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <AssociationLine Name="p" Type="AWGP.physObj" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="4.031" />
+        <Point X="6.01" Y="4.031" />
+        <Point X="6.01" Y="2.25" />
+        <Point X="5" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAARAAAAAAAAAQAEAAEABAAAA=</HashCode>
+      <FileName>Physics\forceApplier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="p" />
+      <Field Name="f" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AWGP.forceManager" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <AssociationLine Name="forces" Type="AWGP.forceApplier" FixedToPoint="true">
+      <Path>
+        <Point X="7.062" Y="3.312" />
+        <Point X="7.062" Y="3.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAQgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\forceManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="forces" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Struct Name="AWGP.collision" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAQAAAAAAAIAAEAAAAAggAAAAAAAAA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="collisionType" />
+    </ShowAsAssociation>
+  </Struct>
+  <Interface Name="AWGP.iPhysParticle" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Physics\iPhysParticle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AWGP.effect" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAEAAA=</HashCode>
+      <FileName>Physics\particleEmitter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AWGP.collisionType" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Physics\collisionManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

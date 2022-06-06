@@ -1,0 +1,177 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using AWGP.Components;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using AWGP;
+using AWGP.Graphics;
+using AWGP.Graphics.Components;
+
+namespace GoopGame
+{
+    /// <summary>
+    /// This is the main type for your game
+    /// </summary>
+    public class GoopGame : Microsoft.Xna.Framework.Game
+    {
+        private static Random random = new Random();
+        private InputManager input;
+        private physManager physics;
+        private List<Entity> entities;
+        private static int numberOfGloops = 10;
+        private Random rnd;
+        private CameraComponent camera;
+        private AmbientLightComponent ambientLight;
+        private SpriteFont font;
+        
+        private Color[] color = {Color.Red, Color.Green, Color.Blue};
+
+        public GoopGame()
+        {
+            // dchapman: Add our GraphicsSystem to the collection of game services - 21/10/2011
+            this.Components.Add(new AWGP.Graphics.GraphicsSystem(this));
+            Content.RootDirectory = "Content";
+            try
+            {
+                //Create the input check for errors on load
+                input = new InputManager("GoopInputManager");
+            }
+            catch (Exception ex)
+            {
+                //Print errors out
+                Console.Write(ex.ToString());
+            }
+            //Load the physic component 
+            physics = new physManager(new Vector2(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width,
+                                                 GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height));
+            
+            //Add the collision manager to the physics objects
+            physics.CollisionsManager.collision += new EventHandler(handleCollisions);
+
+            //Create a list of all the game movable objects.
+            entities = new List<Entity>();
+
+            //Create a random number generator
+            rnd = new Random();
+
+        }
+
+        /// <summary>
+        /// Allows the game to perform any initialization it needs to before starting to run.
+        /// This is where it can query for any required services and load any non-graphic
+        /// related content.  Calling base.Initialize will enumerate through any components
+        /// and initialize them as well.
+        /// </summary>
+        protected override void Initialize()
+        {
+            base.Initialize();
+        }
+
+        /// <summary>
+        /// LoadContent will be called once per game and is the place to load
+        /// all of your content.
+        /// </summary>
+        protected override void LoadContent()
+        {
+            //Create an ambient light so that you can see all the game wourld
+            ambientLight = new AmbientLightComponent(Content, RenderTargetEnum.BackBuffer, Color.White, 0.5f);
+            //Create a camera to see the world
+            camera = new PerspCameraComponent(GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height, new Vector3(0.0f, 0.0f, 10.0f), new Vector3(0.0f, 0.0f, 0.0f), true);
+            //Create a textured backgorund from the textures
+            int finishYBackgound = 5, startyBackgornd = finishYBackgound * -1, finishXBackgound = 8, startXBackgornd = finishXBackgound * -1;
+            for (int j = startyBackgornd; j < finishYBackgound; j++)
+            {
+                for (int i = startXBackgornd; i < finishXBackgound; i++)
+                {
+                    PointSpriteComponent background = new PointSpriteComponent(Content,
+                                                                               RenderTargetEnum.GBuffer,
+                                                                               new Vector3(i, j, 0.0f),
+                                                                               0.0f,
+                                                                               new Vector2(1.0f, 1.0f),
+                                                                               "Sprites\\Background_a",
+                                                                               "Sprites\\Background_n",
+                                                                               "Sprites\\Background_s");
+                }
+            }
+
+
+            //Add player one to the world
+            entities.Add(new GoopPlayer(Content, Vector2.Zero, Vector2.Zero,Vector2.Zero, 0.0f,AWGP.PlayersName.PLAYER_0,"PLAYER_0"));
+            //Add player two to the world
+            entities.Add(new GoopPlayer(Content, Vector2.Zero, Vector2.Zero, Vector2.Zero, 0.0f, AWGP.PlayersName.PLAYER_1, "PLAYER_1"));
+
+            //Create the goop for the world
+            for (int i = 0; i < numberOfGloops; i++)
+            {
+                entities.Add(new Goop(Content,
+                    new Vector2(-i,4),
+                    new Vector2((float)random.NextDouble() * 2 - 1, (float)random.NextDouble() * 2 - 1),
+                    new Vector2((float)random.NextDouble() * 2 - 1, (float)random.NextDouble() * 2 - 1),
+                    (float)random.NextDouble() * 2 - 1,
+                    i, 
+                    new Color((float)random.NextDouble() * 2 - 1, (float)random.NextDouble() * 2 - 1,(float)random.NextDouble() * 2 - 1)));
+            }
+
+            foreach (var g in entities.OfType<Goop>())
+            {
+                    g.physics = new PhysicsComponent(new Vector2((float)rnd.NextDouble(), (float)rnd.NextDouble()),
+                    new Vector2((float)rnd.NextDouble(), (float)rnd.NextDouble()),
+                    new Vector2((float)rnd.NextDouble(), (float)rnd.NextDouble()), (float)rnd.NextDouble(), true, Vector2.UnitX, g.physics.Id);
+            }
+        }
+
+        /// <summary>
+        /// UnloadContent will be called once per game and is the place to unload
+        /// all content.
+        /// </summary>
+        protected override void UnloadContent()
+        {
+        }
+
+        /// <summary>
+        /// Allows the game to run logic such as updating the world,
+        /// checking for collisions, gathering input, and playing audio.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        protected override void Update(GameTime gameTime)
+        {
+            //Update the input if the input is not null
+            if (input != null)
+            {
+                input.Update();
+            }
+            //Update the goop 
+            foreach (var g in entities.OfType<Goop>())
+            {
+                g.physics.ApplyForce(new Vector2(0.0f, - 0.5f), -1,0.0f,0.0f,AWGP.forceType.VECTOR);
+            }
+            //Update the players
+            foreach (var p in entities.OfType<GoopPlayer>())
+            {
+                p.physics.ApplyForce(new Vector2(0.0f, -0.5f), -1, 0.0f, 0.0f, AWGP.forceType.VECTOR);
+            }
+            //Update the physic component
+            physics.Update(ref gameTime);
+
+            base.Update(gameTime);
+        }
+
+        /// <summary>
+        /// This is called when the game should draw itself.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        protected override void Draw(GameTime gameTime)
+        {
+            base.Draw(gameTime);
+        }
+
+        //Event handeler for a collision
+        private void handleCollisions(object sender, EventArgs e)
+        {
+            collisionEventArgs ce = (collisionEventArgs)e;
+            //collision handling here
+            
+        }
+    }
+}

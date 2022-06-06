@@ -1,0 +1,50 @@
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Dirt_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Road_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Wall_a.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\PointLight.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\InputDefinitions.xml
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\RacingGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\RacingGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\AWGP.dll
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\AWGP.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\obj\x86\Debug\RacingGame.exe
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\obj\x86\Debug\RacingGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Dirt_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Road_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Wall_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Dirt_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Dirt_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Road_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Road_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Wall_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Wall_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Lamppost_a.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Lamppost_n.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Lamppost_s.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\PointLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\PointSpriteOpaque.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\AmbientLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\DirectionalLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\InputDefinitions.xml
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\RacingGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\RacingGame.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\AWGP.dll
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\bin\x86\Debug\AWGP.pdb
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\obj\x86\Debug\RacingGame.exe
+C:\Users\dv003874\Documents\Visual Studio 2010\Projects\AWGP\RacingGame\RacingGame\obj\x86\Debug\RacingGame.pdb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Default.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_a_PLAYER_0.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_a_PLAYER_1.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_a_PLAYER_2.xnb
+C:\Users\Alex J Davison\Dropbox\Uni\Year 4\Semster 1\Advanced Windows Game Programming\AWGP\RacingGame\RacingGame\bin\x86\Debug\Content\Sprites\Car_a_PLAYER_3.xnb

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="AWGP.Player">
+	  <playerName>PLAYER_0</playerName>
+	  <controller>KEYBOARD</controller>
+	  <moves>
+		  <move>PUNCH</move>
+		  <control>A</control>
+	  </moves>
+  </Asset>
+</XnaContent>
